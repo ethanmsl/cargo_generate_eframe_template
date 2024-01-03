@@ -1,4 +1,4 @@
-# [cargo-generate](https://github.com/cargo-generate/cargo-generate) adaptation of eframe template
+# [cargo-generate](https://github.com/cargo-generate/cargo-generate) adaptation of [eframe template](https://github.com/emilk/eframe_template)
 
 ## status:
 <details>
@@ -51,6 +51,7 @@ just
 
 # Table of Contents:
 <!--toc:start-->
+- [status](#status)
 - [cargo-generate adaptation of eframe template](#cargo-generate-adaptation-of-eframe-template)
   - [to use:](#to-use)
 - [Original Readme:](#original-readme)

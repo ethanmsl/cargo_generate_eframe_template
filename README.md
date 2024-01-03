@@ -20,6 +20,19 @@ just
 <img width="600" alt="just commands" src="https://github.com/ethanmsl/eframe_template_test/assets/33399972/40b9cfbe-1fec-4c9b-84d0-9b5f42028855">
 
 
+<!--toc:start-->
+- [[cargo-generate](https://github.com/cargo-generate/cargo-generate) adaptation of eframe template](#cargo-generatehttpsgithubcomcargo-generatecargo-generate-adaptation-of-eframe-template)
+  - [to use:](#to-use)
+- [Original Readme:](#original-readme)
+  - [Getting started](#getting-started)
+    - [Learning about egui](#learning-about-egui)
+    - [Testing locally](#testing-locally)
+    - [Web Locally](#web-locally)
+    - [Web Deploy](#web-deploy)
+  - [Updating egui](#updating-egui)
+<!--toc:end-->
+
+
 # Original Readme:
 
 This is a template repo for [eframe](https://github.com/emilk/egui/tree/master/crates/eframe), a framework for writing apps using [egui](https://github.com/emilk/egui/).

@@ -30,7 +30,7 @@ Manual change to mustache-insertions via:
 ```shell
 sd 'eframe_template' '{{crate_name}}' Cargo.toml src/main.rs assets/sw.js
 sd 'eframe template' '{{crate_name | title_case}}' index.html
-sd '(authors = ).*' '${1}{{authors}}' Cargo.toml
+sd '(authors = ).*' '${1}["{{authors}}"]' Cargo.toml
 git diff
 ```
 

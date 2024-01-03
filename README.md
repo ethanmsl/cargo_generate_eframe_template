@@ -19,9 +19,11 @@ just
 ```
 <img width="600" alt="just commands" src="https://github.com/ethanmsl/eframe_template_test/assets/33399972/40b9cfbe-1fec-4c9b-84d0-9b5f42028855">
 
+-------------
 
+# Table of Contents:
 <!--toc:start-->
-- [[cargo-generate](https://github.com/cargo-generate/cargo-generate) adaptation of eframe template](#cargo-generatehttpsgithubcomcargo-generatecargo-generate-adaptation-of-eframe-template)
+- [cargo-generate adaptation of eframe template](#cargo-generate-adaptation-of-eframe-template)
   - [to use:](#to-use)
 - [Original Readme:](#original-readme)
   - [Getting started](#getting-started)
@@ -32,6 +34,7 @@ just
   - [Updating egui](#updating-egui)
 <!--toc:end-->
 
+-----------------
 
 # Original Readme:
 

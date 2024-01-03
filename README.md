@@ -25,6 +25,16 @@ Change the name of the crate: Chose a good name for your project, and change the
   * Change the `'./eframe_template.js'` to `./your_crate.js` (in `filesToCache` array)
   * Change the `'./eframe_template_bg.wasm'` to `./your_crate_bg.wasm` (in `filesToCache` array)
 
+Manual change to mustache-insertions via:
+
+```shell
+sd 'eframe_template' '{{crate_name}}' Cargo.toml src/main.rs assets/sw.js
+sd 'eframe template' '{{crate_name | title_case}}' index.html
+sd '(authors = ).*' '${1}{{authors}}' Cargo.toml
+git diff
+```
+
+
 ### Learning about egui
 
 `src/app.rs` contains a simple example app. This is just to give some inspiration - most of it can be removed if you like.

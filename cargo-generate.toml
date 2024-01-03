@@ -1,8 +1,8 @@
 [template]
-ignore = [
-  "README.md",
-  "justfile"
-]
+# Note: unfortunately, "exclude" means exclude from template processing
+#       while "ignore" means exclude from inclusion in generated output entirely
+#       (in Cargo.toml, by contrast, "exclude" means exclude from publication)
+exclude = ["README.md", "justfile"]
 
 # [placeholders.hypervisor]
 # default = "spirit-of-giving"
@@ -18,13 +18,6 @@ ignore = [
 # ]
 
 
-
-
-
-
-
-
-
 ####### General Reference: #######
 
 # Builtins:
@@ -35,7 +28,6 @@ ignore = [
 # - {{username}}
 # - {{within_cargo_project}}
 # - {{is_init}}
-
 
 
 # ### Original repo to cargo-generate template steps ##

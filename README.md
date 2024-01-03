@@ -1,10 +1,27 @@
 # [cargo-generate](https://github.com/cargo-generate/cargo-generate) adaptation of eframe template
 
-## to use:
-Prerequisites:
-[rust](https://www.rust-lang.org/tools/install), [cargo-generate](https://github.com/cargo-generate/cargo-generate)
-For additional convenience (when using built-in command runner):
-[just](https://github.com/casey/just), [ripgrep](https://github.com/BurntSushi/ripgrep), [sd](https://github.com/chmln/sd)
+## to use:  
+Prerequisites:  
+- [rust](https://www.rust-lang.org/tools/install), [cargo-generate](https://github.com/cargo-generate/cargo-generate)
+
+For additional convenience (when using built-in command runner):  
+- [just](https://github.com/casey/just), [ripgrep](https://github.com/BurntSushi/ripgrep), [sd](https://github.com/chmln/sd). 
+
+<details>
+  <summary> Quick Install Commands, if desired </summary>
+    
+If you already [have rust installed](https://www.rust-lang.org/tools/install) then just:
+    
+```shell
+cargo install cargo-generate
+cargo install just
+cargo install ripgrep
+cargo install sd
+```
+
+</details>
+
+---------
 
 1. Generate project:
 ```shell
@@ -12,7 +29,7 @@ cargo generate --git gh:ethanmsl/eframe_template_test
 ```
 <img width="600" alt="etemplate-generate" src="https://github.com/ethanmsl/eframe_template_test/assets/33399972/72b056de-feca-4d93-9394-0fc1294c5cab">
 
-2. Follow manual instructions below, optionallu use command runner:
+2. Follow manual instructions below, optionally use command runner:
 The following will list commands:
 ```shell
 just

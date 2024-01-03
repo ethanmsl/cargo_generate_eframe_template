@@ -1,5 +1,21 @@
 # eframe template
 
+## to use:
+Prerequisites:
+rust, cargo-generate, just, ripgrep, sd
+
+1. Generate project:
+```shell
+cargo generate --git gh:ethanmsl/eframe_template_test
+```
+
+2. Follow manual instructions below, optionallu use command runner:
+The following will list commands:
+```shell
+just
+```
+
+
 [![dependency status](https://deps.rs/repo/github/emilk/eframe_template/status.svg)](https://deps.rs/repo/github/emilk/eframe_template)
 [![Build Status](https://github.com/emilk/eframe_template/workflows/CI/badge.svg)](https://github.com/emilk/eframe_template/actions?workflow=CI)
 

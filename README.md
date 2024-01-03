@@ -1,23 +1,26 @@
-# eframe template
+# [cargo-generate](https://github.com/cargo-generate/cargo-generate) adaptation of eframe template
 
 ## to use:
 Prerequisites:
-rust, cargo-generate, just, ripgrep, sd
+[rust](https://www.rust-lang.org/tools/install), [cargo-generate](https://github.com/cargo-generate/cargo-generate)
+For additional convenience (when using built-in command runner):
+[just](https://github.com/casey/just), [ripgrep](https://github.com/BurntSushi/ripgrep), [sd](https://github.com/chmln/sd)
 
 1. Generate project:
 ```shell
 cargo generate --git gh:ethanmsl/eframe_template_test
 ```
+<img width="600" alt="etemplate-generate" src="https://github.com/ethanmsl/eframe_template_test/assets/33399972/72b056de-feca-4d93-9394-0fc1294c5cab">
 
 2. Follow manual instructions below, optionallu use command runner:
 The following will list commands:
 ```shell
 just
 ```
+<img width="600" alt="just commands" src="https://github.com/ethanmsl/eframe_template_test/assets/33399972/40b9cfbe-1fec-4c9b-84d0-9b5f42028855">
 
 
-[![dependency status](https://deps.rs/repo/github/emilk/eframe_template/status.svg)](https://deps.rs/repo/github/emilk/eframe_template)
-[![Build Status](https://github.com/emilk/eframe_template/workflows/CI/badge.svg)](https://github.com/emilk/eframe_template/actions?workflow=CI)
+# Original Readme:
 
 This is a template repo for [eframe](https://github.com/emilk/egui/tree/master/crates/eframe), a framework for writing apps using [egui](https://github.com/emilk/egui/).
 

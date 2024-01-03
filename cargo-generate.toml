@@ -1,3 +1,9 @@
+[template]
+ignore = [
+  "README.md",
+  "justfile"
+]
+
 # [placeholders.hypervisor]
 # default = "spirit-of-giving"
 # type = "string"

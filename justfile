@@ -1,7 +1,7 @@
 
 # default recipe to display help information
 _default:
-	@just --list --unsorted
+	@ just --list --unsorted
 
 
 # ripgrep for elements in braces -- to see mustache insertions

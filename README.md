@@ -1,5 +1,16 @@
 # [cargo-generate](https://github.com/cargo-generate/cargo-generate) adaptation of eframe template
 
+## status:
+<details>
+  <summary> Boring status details; though possibly useful if you wandered/searched your way here </summary>
+  
+- The cargo-generate template works completely, as of posting of this message.  
+- The ease-of-use runner commands mostly work, but are at an early stage.
+  - (In particular, the publication command doesn't do much.  There are also to command that only appear on linux systems and offer (with confirm) to install additional prereqs needed to compile to WASM.  These have not been tested.
+- There are not currently any mechanisms that keep this in lock with the original [egui/eframe_template](https://github.com/emilk/eframe_template).  If you're viewing this much later than these comments were written you may want to check for freshness.
+
+</details>
+
 ## to use:  
 Prerequisites:  
 - [rust](https://www.rust-lang.org/tools/install), [cargo-generate](https://github.com/cargo-generate/cargo-generate)

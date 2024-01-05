@@ -36,7 +36,7 @@ cargo install sd
 
 1. Generate project:
 ```shell
-cargo generate --git gh:ethanmsl/eframe_template_test
+cargo generate --git gh:cargo_generate_eframe_template
 ```
 <img width="600" alt="etemplate-generate" src="https://github.com/ethanmsl/eframe_template_test/assets/33399972/72b056de-feca-4d93-9394-0fc1294c5cab">
 

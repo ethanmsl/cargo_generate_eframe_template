@@ -4,10 +4,15 @@
 #       (in Cargo.toml, by contrast, "exclude" means exclude from publication)
 exclude = ["README.md", "justfile"]
 
-# [placeholders.hypervisor]
-# default = "spirit-of-giving"
+[placeholders.author_github_name]
+default = "TODO_NOT_PROVIDED_AT_GENERATION"
+type = "string"
+prompt = "What is the GitHub user name this will be living under."
+
+# [placeholders.author_repo]
+# default = "TODO"
 # type = "string"
-# prompt = "Seasonal Mascot for this Day's Project?"
+# prompt = "What is the GitHub user name this will be living under."
 # choices = [
 #         "reindeer",
 #         "elf",
@@ -16,7 +21,6 @@ exclude = ["README.md", "justfile"]
 #         "living coal",
 #         "spirit-of-giving",
 # ]
-
 
 ####### General Reference: #######
 
